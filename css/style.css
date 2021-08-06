@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*::before, ::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a,:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #273d46;
+    background: #e8e8e8 url(../img/Ellipse.png) 50% 150px no-repeat;
+    width: 840px;
+    margin: auto;
+}
+
+.about{
+    padding: 0px 0px 80px 0px;
+}
+.opacity {
+    text-transform: uppercase;
+    opacity: 0.5;
+    text-align: center;
+    margin: 168px 0px 28px 0px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.head{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 36px;
+    text-align: center;
+
+}
+.citation{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 60px;
+}
+.image-block {
+    border: 10px solid #fff;
+    width: 840px;
+    height: 560px;
+    display: block;
+    margin: 0px 0px 50px 0px;
+ }
+ .text{
+     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+     font-size: 24px;
+     line-height: 1.667;
+     margin: auto;
+     margin-top: 97px;
+     width: 840px;
+     padding: 0px 30px 0px 30px;
+     color: #273d46;
+     text-align: justify;
+    }
+
+.icon {
+    line-height: 1.8;
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;
+    margin-top: 40px;
+    width: 840px;
+    padding: 0px 30px 0px 30px;
+    font-weight: 600;
+ }
+
+ .icon li{
+    background: url('../img/icons/check\ icon.png') no-repeat left 7px;
+    padding: 0px 0px 0px 40px;
+ }
+
+.button{
+    background: #80b7b3 url(../img/icons/Shape\ 2.png) 155px 14px no-repeat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: 189px;
+    height: 43px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 59px 911px 50px 30px;
+    padding: 7px 35px 0px 10px;
+}
+
+a{
+    color: #fff;
+}
